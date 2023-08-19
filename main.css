@@ -17,7 +17,7 @@ html{
   scroll-behavior: smooth;
 }
 body{
-  background: #26001B;
+  background: #000000;
  
 
 animation: fadeInAnimation ease 3s;
@@ -53,7 +53,7 @@ nav {
   justify-content: space-around;
   position: fixed;
   width: 100%;
-  background: #26001B;
+  background: #000000;
   /* border-bottom: #222222 1.5px solid;
   background: #131313; */
   
@@ -309,8 +309,10 @@ font-family: var(--font);
 }
 
 .fet{
-  background: #810034 ;
+  background: #000000 ;
     padding:3.5rem ;
+    border-bottom: #FF005C 1.5px solid;
+    border-top: 1.5px solid #FF005C;
 }
 .inner-features{
   display: flex;
@@ -397,7 +399,7 @@ border-top: 1.5px solid #810034;
 
 .about{
   padding: 4.5rem;
-  background-color: #26001B;
+  background-color: #000000;
 }
 
 .inner-about{
@@ -428,7 +430,8 @@ border-top: 1.5px solid #810034;
 
 .footer{
   padding: 1rem;
-  background-color: #810034;
+  background-color: #000000;
+  border-top: 1.5px solid #ff004c;
 
 }
 .inner-footer{
@@ -469,6 +472,158 @@ border-top: 1.5px solid #810034;
   height: 45px;
   margin-right: 1rem;
   width: 45px%;
+}
+
+.main{
+  padding: 1rem;
+}
+inner-main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sign-up-page{
+ padding: 1rem;
+  display: flex;
+  width: fit-content;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.image img{
+
+}
+
+.main{
+  padding: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: -webkit-linear-gradient(45deg,#FF005C,#FFF600);
+  font-family: var(--font);
+  flex-direction: column;
+}
+.form{
+  margin-top: 3rem;
+}
+.inner-form{
+  padding: 2.7rem;
+  background-color: #ffffff;
+border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+  flex-direction: column;
+
+}
+label{
+  display:block;
+  font-size: 15PX;
+  color: rgb(70, 70, 70);
+  margin-bottom: 5px;
+}
+.fields{
+  padding: 0.6rem;
+  border: grey 1px solid;
+  border-radius: 8px;
+  background-color: whitesmoke;
+  
+}
+.fields:focus{
+  outline: none;
+  border: #FF005C 1px solid ;
+  transition: 0.3s ease;
+  
+  
+}
+.not-have-an-account{
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.not-have-an-account a{
+  color: rgb(0, 153, 255);
+  font-size: 16px;
+  
+  font-family: var(--font);
+  text-decoration: none;
+}
+#message{
+  margin-top: 1rem;
+}
+input[type=checkbox]{
+  accent-color: #FF005C;
+  
+}
+.checkboxes {
+  display: flex;
+  flex-direction: column;
+}
+.checkboxes label{
+  display: block;
+}
+ .input1{
+  margin-bottom: 0.7rem;
+ 
+  place-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: normal;
+  flex-direction: column;
+ }
+ .input2{
+  margin-bottom: 0.5rem;
+  place-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: normal;
+  flex-direction: column;
+ }
+ .input2 a{
+  text-decoration: none;
+  color: #ff6600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+ }
+ .log-in{
+  width: 100%;
+ }
+ .log-in button{
+padding: 0.6rem;
+color: white;
+border: none;
+width: 100%;
+border-radius: 4px;
+background-color:#FF005C;
+ }
+ h4{
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+ }
+ .valid {
+color: green;
+}
+
+.valid:before {
+position: relative;
+left: -35px;
+
+}
+ .invalid {
+color: red;
+}
+
+.invalid:before {
+position: relative;
+left: -35px;
+
+
+}
+.size{
+  font-size: 15px;
 }
 @media (max-width: 910px) {
     nav .menu {
@@ -522,7 +677,7 @@ border-top: 1.5px solid #810034;
   font-size: 0.75rem;
 }
 .fet{
-  background: #810034 ;
+  background: #000000 ;
     padding:2rem ;
 }
 .inner-features{
@@ -582,7 +737,7 @@ border-top: 1.5px solid #810034;
 
   .about{
     padding: 1.5rem;
-    background-color: #26001B;
+    background-color: #000000;
   }
   
   .inner-about{
